@@ -22,7 +22,7 @@ jobs:
       - name: Upload artifact (public folder)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: BaiTap7/public
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
