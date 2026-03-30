@@ -10,7 +10,7 @@ build:
     - echo "Build completed at: $(date)"
   artifacts:
     paths:
-      - public/
+      - BaiTap7/public
     expire_in: 1 day
 
 test:
